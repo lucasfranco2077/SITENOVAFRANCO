@@ -12,11 +12,3 @@ document.addEventListener('keydown', event => {
 });
 document.addEventListener('click', event => { if (!event.target.closest('.nf-header')) closeMenu(); });
 
-const serviceMarquee = document.querySelector('.nf-marquee');
-serviceMarquee?.querySelector('.nf-marquee-toggle')?.addEventListener('click', event => {
-  const paused = serviceMarquee.classList.toggle('is-paused');
-  const button = event.currentTarget;
-  button.setAttribute('aria-pressed', String(paused));
-  button.setAttribute('aria-label', paused ? 'Continuar rolagem dos serviços' : 'Pausar rolagem dos serviços');
-  button.textContent = paused ? 'Continuar ▶' : 'Pausar Ⅱ';
-});
