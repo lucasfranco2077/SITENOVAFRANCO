@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /previa-celular
+Sitemap: https://www.novafranco.com.br/sitemap.xml
