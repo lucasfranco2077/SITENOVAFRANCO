@@ -1,6 +1,6 @@
 # NOVA FRANCO — site institucional
 
-HTML, CSS e JavaScript sem framework, dependências npm, backend, banco de dados, autenticação ou formulários de envio. Contato via telefone e WhatsApp. Fontes do sistema e imagens locais.
+HTML, CSS e JavaScript sem framework, dependências npm, backend, banco de dados, autenticação ou receptor de formulários. Formulário local de orçamento que prepara mensagem para o WhatsApp; contato direto preservado. Fontes do sistema e imagens locais.
 
 ## Publicação na Vercel
 
@@ -40,3 +40,7 @@ Esse teste não foi executado em produção: ainda não existe projeto na Vercel
 - `vercel.json` só controla cabeçalhos no deploy Vercel; GitHub Pages não aplica essa configuração.
 
 Consulte `AUDITORIA-SEGURANCA.md` para achados, evidências, limites e checklist.
+
+## Formulário de orçamento
+
+Veja `FORMULARIO-ORCAMENTO.md`. Execute `node scripts/test-orcamento.mjs` para conferir a validação e o fluxo sem enviar mensagens.
